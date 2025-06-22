@@ -41,6 +41,16 @@ Quickly ensure your Jenkinsfile is valid without leaving the editor or setting u
 | `jenkinsLinter.ignoreSSL`       | boolean   | Ignore SSL errors (for self-signed certificates)             | `false`                      |
 | `jenkinsLinter.autoValidateOnSave` | boolean | Enable automatic Jenkinsfile validation on file save         | `false`                      |
 
+Settings example:
+
+```json
+"jenkinsLinter.url": "http://localhost:8080",
+"jenkinsLinter.user": "jenkinsuser",
+"jenkinsLinter.token": "1113da6bd919ad96dc1b84b0e705dea61a",
+"jenkinsLinter.ignoreSSL": true,
+"jenkinsLinter.autoValidateOnSave": true
+```
+
 ---
 
 ## Usage
@@ -115,6 +125,18 @@ If you have questions or suggestions, please open an issue or contact us via the
 | `jenkinsLinter.token`         | string    | API токен пользователя Jenkins                                   | `1234567890abcdef`            |
 | `jenkinsLinter.ignoreSSL`     | boolean   | Игнорировать ошибки SSL (для самоподписанных сертификатов)        | `false`                      |
 | `jenkinsLinter.autoValidateOnSave` | boolean | Включить автоматическую проверку Jenkinsfile при сохранении файла | `false`                      |
+
+Пример настроек:
+
+Settings example:
+
+```json
+"jenkinsLinter.url": "http://localhost:8080",
+"jenkinsLinter.user": "jenkinsuser",
+"jenkinsLinter.token": "1113da6bd919ad96dc1b84b0e705dea61a",
+"jenkinsLinter.ignoreSSL": true,
+"jenkinsLinter.autoValidateOnSave": true
+```
 
 ---
 
