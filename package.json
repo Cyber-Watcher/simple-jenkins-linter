@@ -1,6 +1,6 @@
 {
   "name": "simple-jenkins-pipeline-linter",
-  "displayName": "simple-jenkins-pipeline-linter",
+  "displayName": "Simple Jenkins Pipeline Linter",
   "description": "Validate Jenkinsfiles using Jenkins HTTP API",
   "publisher": "cyberwatcher",
   "repository": {
@@ -11,7 +11,7 @@
     "url": "https://github.com/Cyber-Watcher/simple-jenkins-linter/issues"
   },
   "icon": "images/jenkinslinter128.png",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "engines": {
     "vscode": "^1.101.0"
   },
