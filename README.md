@@ -10,6 +10,9 @@ This extension makes it easy to validate the syntax and structure of your Jenkin
 
 Quickly ensure your Jenkinsfile is valid without leaving the editor or setting up complex tools.
 
+![valid](images/valid.png) 
+
+![error](images/error.png)
 ---
 
 ## Features
@@ -94,6 +97,10 @@ If you have questions or suggestions, please open an issue or contact us via the
 Это расширение облегчает проверку синтаксиса и структуры Jenkinsfile прямо из редактора VSCode, отправляя содержимое файла на валидацию в ваш Jenkins сервер через стандартный HTTP API.
 
 Вы можете быстро убедиться, что ваш Jenkinsfile корректен, не покидая редактор и не настраивая дополнительные сложные инструменты.
+
+![valid](images/valid.png) 
+
+![error](images/error.png)
 
 ---
 
