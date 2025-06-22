@@ -58,7 +58,6 @@ export function activate(context: vscode.ExtensionContext) {
 		}
 	}
 
-	// Ручной запуск через команду
 	const disposable = vscode.commands.registerCommand('simple.jenkinsLinter.validateJenkinsfile', async () => {
 		const editor = vscode.window.activeTextEditor;
 		if (!editor) {
@@ -71,7 +70,6 @@ export function activate(context: vscode.ExtensionContext) {
 	context.subscriptions.push(disposable);
 	context.subscriptions.push(outputChannel);
 
-	// Автопроверка при сохранении файла
 	const config = vscode.workspace.getConfiguration('jenkinsLinter');
 	if (config.get<boolean>('autoValidateOnSave')) {
 		const saveListener = vscode.workspace.onDidSaveTextDocument((doc) => {
